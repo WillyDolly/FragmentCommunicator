@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#f00">
+
+    <TextView
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="FRAGMENT A"
+        android:id="@+id/TVa"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.15" />
+
+    <Button
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:text="Change Main Text"
+        android:id="@+id/BTNa"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07" />
+</LinearLayout>

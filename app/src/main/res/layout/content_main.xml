@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.popland.pop.fragmentcommunicator.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Main"
+        android:id="@+id/TVmain"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change text fragment"
+        android:id="@+id/BTNmain"
+        android:layout_below="@+id/TVmain"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/BTNmain"
+        android:id="@+id/frameLayout"/>
+
+     <!--<fragment-->
+         <!--android:layout_width="wrap_content"-->
+         <!--android:layout_height="wrap_content"-->
+         <!--android:name="com.popland.pop.fragmentcommunicator.FragmentA"-->
+         <!--android:id="@+id/fragmentA"-->
+         <!--android:layout_below="@+id/BTNmain"-->
+         <!--android:layout_alignLeft="@+id/BTNmain"-->
+         <!--android:layout_alignStart="@+id/BTNmain"-->
+         <!--android:layout_marginTop="46dp" />-->
+
+     <!--<fragment-->
+         <!--android:layout_width="wrap_content"-->
+         <!--android:layout_height="wrap_content"-->
+         <!--android:name="com.popland.pop.fragmentcommunicator.FragmentB"-->
+         <!--android:id="@+id/fragmentB"-->
+         <!--android:layout_below="@+id/fragmentA"-->
+         <!--android:layout_centerVertical="true"-->
+         <!--android:layout_alignRight="@+id/BTNmain"-->
+         <!--android:layout_alignEnd="@+id/BTNmain" />-->
+    <!--</FrameLayout>-->
+</RelativeLayout>
